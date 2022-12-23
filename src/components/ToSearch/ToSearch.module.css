@@ -1,0 +1,47 @@
+
+.searchBar {
+    padding: 11px;
+    width: 30%;
+    margin-top: 31px;
+    border-radius: 40px;
+    border-color: #4e32ff;
+    outline: none;
+}
+
+
+.resultShown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.itemShown {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background: var(--card-background-color);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: -5px -5px 15px var(--card-shadow-color-top-left), 5px 5px 15px var(--card-shadow-color-bottom-right);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.itemShown:hover {
+    box-shadow: 0 0 3px black;
+    margin-top: 1px;
+}
+
+.itemEmoji{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+
